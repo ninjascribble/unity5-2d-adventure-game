@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 50934132847360696}
   - component: {fileID: 58440945761341012}
   - component: {fileID: 114140363486484670}
+  - component: {fileID: 114409364401104960}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -113,6 +114,18 @@ MonoBehaviour:
   standing: 0
   standingThreshold: 4
   airSpeedMultiplier: 0.3
+--- !u!114 &114409364401104960
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1114976704702804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abfc458e52b5b4aac8dda1d3eb7777a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moving: {x: 0, y: 0}
 --- !u!212 &212160881519932246
 SpriteRenderer:
   m_ObjectHideFlags: 1

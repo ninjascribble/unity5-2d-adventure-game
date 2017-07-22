@@ -14,56 +14,44 @@ public class Player : MonoBehaviour {
 	private Rigidbody2D body2d;
 	private SpriteRenderer renderer2d;
 	private Animator animator;
+	private PlayerController controller;
 
 	void Awake () {
 		body2d = GetComponent<Rigidbody2D> ();
 		renderer2d = GetComponent<SpriteRenderer> ();
 		animator = GetComponent<Animator> ();
+		controller = GetComponent<PlayerController> ();
 	}
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		var absVelX = Mathf.Abs (body2d.velocity.x);
 		var absVelY = Mathf.Abs (body2d.velocity.y);
-		var forceX = 0f;
-		var forceY = 0f;
+		var forceX = speed * controller.moving.x;
+		var forceY = jetSpeed * controller.moving.y;
 
 		standing = (absVelY <= standingThreshold);
 
-		if (Input.GetKey ("right")) {
-			if (absVelX < maxVelocity.x) {
-				forceX = standing ? speed : speed * airSpeedMultiplier;
-			}
-			renderer2d.flipX = false;
-		}
-		else if (Input.GetKey ("left")) {
-			if (absVelX < maxVelocity.x) {
-				forceX = standing ? -speed : -speed * airSpeedMultiplier;
-			}
-			renderer2d.flipX = true;
-		}
-
-		if (Input.GetKey ("up")) {
-			if (absVelY < maxVelocity.y) {
-				forceY = jetSpeed;
-			}
+		if (!standing) {
+			forceX *= airSpeedMultiplier;
 		}
 
 		body2d.AddForce (new Vector2 (forceX, forceY));
+	}
 
-		if (!standing && Input.GetKey ("up")) {
-			animator.SetInteger ("AnimState", 2); // jet
-		}
-		else if (absVelX > standingThreshold) {
+	void Update () {
+		var absVelY = Mathf.Abs (body2d.velocity.y);
+
+		if (controller.moving.x != 0) {
+			renderer2d.flipX = controller.moving.x < 0;
 			animator.SetInteger ("AnimState", 1); // walk
-		}
-		else {
+		} else {
 			animator.SetInteger ("AnimState", 0); // idle
+		}
+
+		if (controller.moving.y > 0) {
+			animator.SetInteger ("AnimState", 2); // jets on
+		} else if (absVelY > 0 && !standing) {
+			animator.SetInteger ("AnimState", 3); // jets off
 		}
 	}
 }
