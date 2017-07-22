@@ -34,12 +34,12 @@ SpriteAtlas:
       enableTightPacking: 1
     packedHash:
       serializedVersion: 2
-      Hash: 5f0db3b1d914e109a7e54b86de5abe52
+      Hash: f5671c8bf4abf37d8aec11625bcf7756
     variantMultiplier: 1
     bindAsDefault: 1
     finalFormat: 4
-    hashString: 5f0db3b1d914e109a7e54b86de5abe52
-    totalSpriteSurfaceArea: 1489756
+    hashString: f5671c8bf4abf37d8aec11625bcf7756
+    totalSpriteSurfaceArea: 1489068
     packables:
     - {fileID: 2800000, guid: f68c0cacb530d4506bc653064c648b62, type: 3}
     - {fileID: 2800000, guid: caa2dd2832d2f4c5a8327b1df16f80cb, type: 3}
@@ -107,6 +107,10 @@ SpriteAtlas:
     - 5c3b595329d1b42b6a1906dc573603cf: 21300000
     - 7308706bcdee54d2a969cd0093e145a2: 21300000
     - 5df65f718bfed43ceb5c9fd5af953fed: 21300000
+    - 5df65f718bfed43ceb5c9fd5af953fed: 21300002
+    - 5df65f718bfed43ceb5c9fd5af953fed: 21300004
+    - 5df65f718bfed43ceb5c9fd5af953fed: 21300006
+    - 5df65f718bfed43ceb5c9fd5af953fed: 21300008
     - 54b1f0bc8c5bf41d69c243becb346ebe: 21300000
     - 29d0b391ab5144c5d9f64bab9f5dcb80: 21300000
     - 62b216fa3ac214111bb9088819a847e6: 21300000
@@ -163,6 +167,10 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 5c3b595329d1b42b6a1906dc573603cf, type: 3}
   - {fileID: 21300000, guid: 7308706bcdee54d2a969cd0093e145a2, type: 3}
   - {fileID: 21300000, guid: 5df65f718bfed43ceb5c9fd5af953fed, type: 3}
+  - {fileID: 21300002, guid: 5df65f718bfed43ceb5c9fd5af953fed, type: 3}
+  - {fileID: 21300004, guid: 5df65f718bfed43ceb5c9fd5af953fed, type: 3}
+  - {fileID: 21300006, guid: 5df65f718bfed43ceb5c9fd5af953fed, type: 3}
+  - {fileID: 21300008, guid: 5df65f718bfed43ceb5c9fd5af953fed, type: 3}
   - {fileID: 21300000, guid: 54b1f0bc8c5bf41d69c243becb346ebe, type: 3}
   - {fileID: 21300000, guid: 29d0b391ab5144c5d9f64bab9f5dcb80, type: 3}
   - {fileID: 21300000, guid: 62b216fa3ac214111bb9088819a847e6, type: 3}
@@ -217,7 +225,11 @@ SpriteAtlas:
   - start-text-off
   - start-text-on
   - dorm-tiles
-  - cave-sprites
+  - cave-sprites_0
+  - cave-sprites_1
+  - cave-sprites_2
+  - cave-sprites_3
+  - cave-sprites_4
   - player-jet-02
   - player-jet-01
   - player-jet-00
