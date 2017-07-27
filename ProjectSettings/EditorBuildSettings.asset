@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Jetroid/Scenes/SplashScene.unity
+    guid: c0b161b1613894c0bb9a925e1ad98142
+  - enabled: 1
+    path: Assets/Jetroid/Scenes/GameStaging.unity
+    guid: 3118ff84f71b844148d1cd01f08261d4
