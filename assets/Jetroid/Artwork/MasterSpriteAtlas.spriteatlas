@@ -34,12 +34,12 @@ SpriteAtlas:
       enableTightPacking: 1
     packedHash:
       serializedVersion: 2
-      Hash: f5671c8bf4abf37d8aec11625bcf7756
+      Hash: 9279d4bfe2c6f6da38725e5722d0ca00
     variantMultiplier: 1
     bindAsDefault: 1
     finalFormat: 4
-    hashString: f5671c8bf4abf37d8aec11625bcf7756
-    totalSpriteSurfaceArea: 1489068
+    hashString: 9279d4bfe2c6f6da38725e5722d0ca00
+    totalSpriteSurfaceArea: 15309
     packables:
     - {fileID: 2800000, guid: f68c0cacb530d4506bc653064c648b62, type: 3}
     - {fileID: 2800000, guid: caa2dd2832d2f4c5a8327b1df16f80cb, type: 3}
@@ -47,8 +47,8 @@ SpriteAtlas:
     - {fileID: 2800000, guid: 8cff377f3530544ccb193e8f48aaf628, type: 3}
     - {fileID: 2800000, guid: 078f67c663fcc47a6802dc37da474904, type: 3}
     - {fileID: 2800000, guid: f61c97b8fb3d04f32afdaf43841e1dff, type: 3}
-    - {fileID: 2800000, guid: 656ca0424537f4416b1242eac73a8268, type: 3}
-    - {fileID: 2800000, guid: 025a242a8cc0745019840ddd7f36e5b4, type: 3}
+    - {fileID: 2800000, guid: a0ecdeb7973584c9b9b2fecac6d4fa67, type: 3}
+    - {fileID: 2800000, guid: 7e48d197060f84800bf90d3b173d3957, type: 3}
     - {fileID: 2800000, guid: 5df65f718bfed43ceb5c9fd5af953fed, type: 3}
     - {fileID: 2800000, guid: dc2c72e7880a84f36b3d712c85deddf1, type: 3}
     - {fileID: 2800000, guid: a3a39d04810c5476a9bc50954e618cdf, type: 3}
@@ -86,25 +86,7 @@ SpriteAtlas:
     - {fileID: 2800000, guid: 3b872c17a1bad443a8304ac14da5a12f, type: 3}
     - {fileID: 2800000, guid: 5cf0ab93f86b24d16bf1cfaddccabee1, type: 3}
     - {fileID: 2800000, guid: 6ee1c69c0d41a4408a507d87cb33dc8b, type: 3}
-    - {fileID: 2800000, guid: a0ecdeb7973584c9b9b2fecac6d4fa67, type: 3}
-    - {fileID: 2800000, guid: 7e48d197060f84800bf90d3b173d3957, type: 3}
-    - {fileID: 2800000, guid: df974ca418ec042f7895a063c488cbaa, type: 3}
-    - {fileID: 2800000, guid: 5f976b6b92a6c44dfb1e99d4052b6d53, type: 3}
-    - {fileID: 2800000, guid: e367ef6eb29774724a3db67bf245bdb6, type: 3}
-    - {fileID: 2800000, guid: 4798c51ca29e046ec90ad0313232651e, type: 3}
-    - {fileID: 2800000, guid: 84712475b8cd84872b8091d5e581ba95, type: 3}
-    - {fileID: 2800000, guid: 5c3b595329d1b42b6a1906dc573603cf, type: 3}
-    - {fileID: 2800000, guid: 889a38b43916b4c9ba68984c97a4218d, type: 3}
     packedSpriteRenderDataKeys:
-    - 025a242a8cc0745019840ddd7f36e5b4: 21300000
-    - 656ca0424537f4416b1242eac73a8268: 21300000
-    - 4798c51ca29e046ec90ad0313232651e: 21300000
-    - e367ef6eb29774724a3db67bf245bdb6: 21300000
-    - 5f976b6b92a6c44dfb1e99d4052b6d53: 21300000
-    - df974ca418ec042f7895a063c488cbaa: 21300000
-    - 889a38b43916b4c9ba68984c97a4218d: 21300000
-    - 84712475b8cd84872b8091d5e581ba95: 21300000
-    - 5c3b595329d1b42b6a1906dc573603cf: 21300000
     - 7308706bcdee54d2a969cd0093e145a2: 21300000
     - 5df65f718bfed43ceb5c9fd5af953fed: 21300000
     - 5df65f718bfed43ceb5c9fd5af953fed: 21300002
@@ -156,15 +138,6 @@ SpriteAtlas:
     - fc9c01baa7ac8494ebcccce47208daeb: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: 025a242a8cc0745019840ddd7f36e5b4, type: 3}
-  - {fileID: 21300000, guid: 656ca0424537f4416b1242eac73a8268, type: 3}
-  - {fileID: 21300000, guid: 4798c51ca29e046ec90ad0313232651e, type: 3}
-  - {fileID: 21300000, guid: e367ef6eb29774724a3db67bf245bdb6, type: 3}
-  - {fileID: 21300000, guid: 5f976b6b92a6c44dfb1e99d4052b6d53, type: 3}
-  - {fileID: 21300000, guid: df974ca418ec042f7895a063c488cbaa, type: 3}
-  - {fileID: 21300000, guid: 889a38b43916b4c9ba68984c97a4218d, type: 3}
-  - {fileID: 21300000, guid: 84712475b8cd84872b8091d5e581ba95, type: 3}
-  - {fileID: 21300000, guid: 5c3b595329d1b42b6a1906dc573603cf, type: 3}
   - {fileID: 21300000, guid: 7308706bcdee54d2a969cd0093e145a2, type: 3}
   - {fileID: 21300000, guid: 5df65f718bfed43ceb5c9fd5af953fed, type: 3}
   - {fileID: 21300002, guid: 5df65f718bfed43ceb5c9fd5af953fed, type: 3}
@@ -215,15 +188,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: eeef483cd0968447abff41c3a2a0ba74, type: 3}
   - {fileID: 21300000, guid: fc9c01baa7ac8494ebcccce47208daeb, type: 3}
   m_PackedSpriteNamesToIndex:
-  - background-mask
-  - background-image
-  - splash-player-3
-  - splash-player-2
-  - splash-player-1
-  - splash-player-0
-  - title
-  - start-text-off
-  - start-text-on
   - dorm-tiles
   - cave-sprites_0
   - cave-sprites_1
